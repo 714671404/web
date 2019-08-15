@@ -32,7 +32,7 @@ body {
     line-height: 44px;
 }
 .nav {
-    padding: 0 15px;
+    padding: 0 20px;
     float: left;
 }
 .nav>ul {
@@ -42,6 +42,10 @@ body {
 .nav>ul>li {
     float: left;
     padding: 0 10px;
+}
+.nav>ul>li>a:hover {
+    color: #009a61;
+    font-size: 13px;
 }
 .auth {
     float: right;
@@ -53,4 +57,8 @@ body {
     font-size: 14px;
     border: none;
     border-radius: 10px;
+}
+.content {
+    padding-top: 44px;
+    height: 100%;
 }
